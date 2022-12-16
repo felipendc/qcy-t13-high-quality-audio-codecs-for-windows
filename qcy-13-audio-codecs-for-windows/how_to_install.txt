@@ -1,0 +1,10 @@
+The Windows MUST BE in English!
+
+Take the ownerdhip of the folders (2_COPY THEM to SYSTEM32) and (C:\Windows\System32)
+
+Move all the files from the folder "2_COPY THEM to SYSTEM32" to "C:\Windows\System32"
+
+Click "replace" or "Agree" if any window pops up!
+
+Done!
+
