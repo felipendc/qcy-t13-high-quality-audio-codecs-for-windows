@@ -1,4 +1,4 @@
-The Windows MUST BE in English!
+The Windows MUST BE in English during the process, you can change it back to your mother tongue after finishing the steps!
 
 Take the ownerdhip of the folders (2_COPY THEM to SYSTEM32) and (C:\Windows\System32)
 
