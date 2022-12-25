@@ -1,6 +1,8 @@
 The Windows MUST BE in English during the process, you can change it back to your mother tongue after finishing the steps!
 
-Take the ownerdhip of the folders (2_COPY THEM to SYSTEM32) and (C:\Windows\System32)
+Right click on these folders and select: Take ownerdhip:
+2_COPY THEM to SYSTEM32 
+C:\Windows\System32
 
 Move all the files from the folder "2_COPY THEM to SYSTEM32" to "C:\Windows\System32"
 
