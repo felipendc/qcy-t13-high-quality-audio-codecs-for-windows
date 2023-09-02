@@ -1,0 +1,6 @@
+Precisa testar:
+Delete o arquivo "WindowsCodecsRaw.dll" da pasta system32 do seu sistema.
+
+
+To be te tested:
+Delete the file "WindowsCodecsRaw.dll" from your windows system32 folder.

@@ -1,10 +1,21 @@
-The Windows MUST BE in English during the process, you can change it back to your mother tongue after finishing the steps!
+Windows MUST BE in English during the process, you can switch it back to your mother tongue after finishing the steps!
 
-Right click on these folders and select: Take ownerdhip:
-2_COPY THEM to SYSTEM32 
-C:\Windows\System32
+Go to "2_COPY THEM to SYSTEM32" and right click on these folders and select: "take ownerdhip":
+CODECS_EXTRACTED_FROM_ (22000.829)
+CODECS_EXTRACTED_FROM_(22621_2134)
 
-Move all the files from the folder "2_COPY THEM to SYSTEM32" to "C:\Windows\System32"
+Then, go to:
+C:\Windows
+
+Right click on "System32" folder and select "Take ownerdhip"
+
+Now choose which codecs you want to use, we have two folders:
+CODECS_EXTRACTED_FROM_ (22000.829)
+CODECS_EXTRACTED_FROM_(22621_2134)
+
+Acess the folder you chose:
+
+Move all the files from this to "C:\Windows\System32"
 
 Click "replace" or "Agree" if any window pops up!
 
