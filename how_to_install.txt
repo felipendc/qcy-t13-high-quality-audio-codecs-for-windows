@@ -3,6 +3,7 @@ Your Window O.S MUST BE in English during this process, you can switch it back t
 Go to "2_COPY THEM to SYSTEM32" and right click on each one of these folders and select: "take ownerdhip":
 CODECS_EXTRACTED_FROM_ (22000.829)
 CODECS_EXTRACTED_FROM_(22621_2134)
+HYBRID_CODECS_EXTRACTED_FROM_22000_829_AND_22621_2134
 
 Then, go to:
 C:\Windows\
@@ -12,6 +13,7 @@ Right click on "System32" folder and select "Take ownerdhip"
 Now choose which codecs you want to use, we have two folders:
 CODECS_EXTRACTED_FROM_ (22000.829)
 CODECS_EXTRACTED_FROM_(22621_2134)
+HYBRID_CODECS_EXTRACTED_FROM_22000_829_AND_22621_2134
 
 Go to the folder you chose:
 Move all the files from it to "C:\Windows\System32"
