@@ -23,3 +23,33 @@ Now, enjoy it. :)
 Additional Information: 
 In case you don't want to use these files, you can also extract them from the Official "22000.829" or "22621_2134" ISO and do the same
 installation process.
+
+
+//////// PERSONAL NOTES ////////
+Inicio da mudanca
+
+TAKE OWNERSHIP na pastas
+adm
+controle total
+editar
+
+de Subpastas e arquivos somente
+para:
+Esta pasta, subpastas e arquivos
+
+OK
+APLICAR
+precione em Continuar 
+ok
+ok
+
+Se ao substituir o arquivo e falar que vc nao tem permissao 
+va em propriedade/ seguranca / admintrador / editar e marca todas as opcoes
+ok 
+aplica
+sim
+ok
+Agora tenta mover os arquivos novamente
+
+CASO DE ERRADO,
+DE OWNERSHIP NO ARQUIVO E NA PASTA 32 E rebineie para aa ou aaa
