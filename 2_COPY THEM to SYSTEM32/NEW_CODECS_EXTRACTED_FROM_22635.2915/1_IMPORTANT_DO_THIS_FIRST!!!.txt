@@ -42,13 +42,13 @@ THEN, CLICK OK.
 .......
 
 
-Try deleting them again, if some of them can't be deleted because another process is using this files...
+Try deleting them again, if some of them can't be deleted because another process is using these files...
 No problem! Do this:
 
-Rename them with a random name and move them to your desktop or documents, or whatever folder...
+Rename them with a random name and move them to your desktop, or documents, or whatever folder...
 
 Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22635.2915 to System32 folder.
-Reboot your computer and delete the files you moved to your desktop.
+Reboot your computer and delete the files you moved to your desktop or whatever folder you saved theme. :)
 
 
 
