@@ -1,0 +1,54 @@
+BEFORE MOVING ANY FILES TO SYSTEM32..
+
+DO THIS FIRST!!!!!!
+
+DELETE THESES FILES IN SYSTEM32:
+
+WindowsCodecsRaw.dll
+WindowsCodecsRaw
+
+DolbyDAX2APOProp.dll
+DolbyDAX2APOv211.dll
+DolbyDecMFT.dll
+
+
+
+
+
+###########################################
+## IF CAN'T DELETE THOSE FILES, DO THIS: ##
+###########################################
+
+
+RIGHT CLICK ON EACH FILE:
+WindowsCodecsRaw.dll
+WindowsCodecsRaw
+
+DolbyDAX2APOProp.dll
+DolbyDAX2APOv211.dll
+DolbyDecMFT.dll
+
+SELECT PROPROTIES
+GO TO SECURITY TAB
+SELECT "USERS" AND CLICK ON "EDIT"
+SELECT "USERS"
+TICK FULL CONTROL
+
+ALL OF THE OTHER BOXES WILL GET AUTO TICKED. THIS IS GOOD!
+CLICK APPLY
+IF A WARNING PROMPT POPS UP, SELECT "YES".
+THEN, CLICK OK.
+.......
+
+
+Try deleting them again, if some of them can't be deleted because another process is using this files...
+No problem! Do this:
+
+Rename them with a random name and move them to your desktop or documents, or whatever folder...
+
+Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22635.2915 to System32 folder.
+Reboot your computer and delete the files you moved to your desktop.
+
+
+
+
