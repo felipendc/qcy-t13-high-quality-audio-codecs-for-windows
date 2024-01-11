@@ -1,3 +1,0 @@
-Win 11 build 22635.2915 DOES NOT HAVE THESE FILES IN SYSTEM32
-WindowsCodecsRaw.dll
-WindowsCodecsRaw
