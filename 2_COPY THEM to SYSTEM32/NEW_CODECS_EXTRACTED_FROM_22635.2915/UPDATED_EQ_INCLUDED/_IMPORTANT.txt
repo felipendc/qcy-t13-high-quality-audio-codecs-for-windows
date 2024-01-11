@@ -26,5 +26,9 @@ Windows 11 Public Channel: 22621.2134
 
 DELETE ANY FILES NAMED MIXER* and folders named Dolby* IN SYSTEM32
 
+Delete these files: 
+DolbyDAX2APOProp.dll
+DolbyDAX2APOv211.dll
+DolbyDecMFT.dll
 
 
