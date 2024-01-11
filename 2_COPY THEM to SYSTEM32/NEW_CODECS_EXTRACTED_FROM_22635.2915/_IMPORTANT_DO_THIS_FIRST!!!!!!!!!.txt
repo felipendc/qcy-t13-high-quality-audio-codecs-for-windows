@@ -10,6 +10,7 @@ WindowsCodecsRaw
 DolbyDAX2APOProp.dll
 DolbyDAX2APOv211.dll
 DolbyDecMFT.dll
+DELETE ALL THE MIXER* files and folders.
 
 
 
