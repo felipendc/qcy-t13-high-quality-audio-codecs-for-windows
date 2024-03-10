@@ -4,7 +4,7 @@
 
 DO THIS FIRST:
 
-DELETE THESES FILES FROM SYSTEM32:
+DELETE THESE FILES FROM THE SYSTEM32 FOLDER:
 
 WindowsCodecsRaw.dll
 WindowsCodecsRaw
@@ -13,7 +13,7 @@ DolbyDAX2APOProp.dll
 DolbyDAX2APOv211.dll
 DolbyDecMFT.dll
 
-Delete all the files and folders containing 'MIXER' in their name.
+Delete all the files and folders containing 'MIXER' in their name in the system32 folder.
 
 
 
@@ -35,7 +35,7 @@ SELECT "USERS" AND CLICK ON "EDIT"
 SELECT "USERS"
 TICK FULL CONTROL
 
-ALL OF THE OTHER BOXES WILL GET AUTO TICKED. THIS IS GOOD!
+ALL THE OTHER BOXES ARE GOING TO GET TICKED AUTOMATICALLY.
 CLICK APPLY
 IF A WARNING PROMPT POPS UP, SELECT "YES".
 THEN, CLICK OK.
@@ -45,9 +45,9 @@ THEN, CLICK OK.
 Try deleting them again, if some of them can't be deleted because it's being used by another process...
 No problem! try this:
 
-Rename them with a random name and move them to your desktop, or documents, or whatever folder...
+Rename them with a random name and move them to your desktop, or documents, or to a folder of your choice...
 
-Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22xxx.xxxx to System32 folder.
+Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22xxx.xxxx to the System32 folder.
 Reboot your computer and delete the files you moved to your desktop or whatever folder you saved them. :)
 
 
