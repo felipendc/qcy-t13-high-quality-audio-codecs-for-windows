@@ -1,8 +1,10 @@
-BEFORE MOVING ANY FILES TO SYSTEM32..
+################################################
+####  BEFORE MOVING ANY FILES TO SYSTEM32... ###
+################################################
 
-DO THIS FIRST!!!!!!
+DO THIS FIRST:
 
-DELETE THESES FILES IN SYSTEM32:
+DELETE THESES FILES FROM SYSTEM32:
 
 WindowsCodecsRaw.dll
 WindowsCodecsRaw
@@ -10,16 +12,14 @@ WindowsCodecsRaw
 DolbyDAX2APOProp.dll
 DolbyDAX2APOv211.dll
 DolbyDecMFT.dll
-DELETE ALL THE MIXER* files and folders.
+
+Delete all the files and folders containing 'MIXER' in their name.
 
 
 
-
-
-###########################################
-## IF CAN'T DELETE THOSE FILES, DO THIS: ##
-###########################################
-
+################################################
+## IF YOU CAN'T DELETE THOSE FILES, TRY THIS: ##
+################################################
 
 RIGHT CLICK ON EACH FILE:
 WindowsCodecsRaw.dll
@@ -42,12 +42,12 @@ THEN, CLICK OK.
 .......
 
 
-Try deleting them again, if some of them can't be deleted because another process is using these files...
-No problem! Do this:
+Try deleting them again, if some of them can't be deleted because it's being used by another process...
+No problem! try this:
 
 Rename them with a random name and move them to your desktop, or documents, or whatever folder...
 
-Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22635.2915 to System32 folder.
+Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22xxx.xxxx to System32 folder.
 Reboot your computer and delete the files you moved to your desktop or whatever folder you saved them. :)
 
 
