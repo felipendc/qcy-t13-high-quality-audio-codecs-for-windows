@@ -1,12 +1,10 @@
 @echo off
 cd /d "%~dp0"
 
-
-
 @REM ## Find files and folders named with "mixer*" and append their names to a text file:
 dir "C:\Windows\System32\*mixer*" /b > files_to_be_deleted.txt
 
-icacls "C:\aass" /grant *S-1-1-0:(d,wdac)
+
 
 @REM ## Check if the "files_to_be_deleted.txt" file is empty based on its size, if so, delete it:
 
