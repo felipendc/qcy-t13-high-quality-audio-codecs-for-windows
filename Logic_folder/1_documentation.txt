@@ -13,7 +13,7 @@ RENAME A FILE IN A DIRECTORY:
 ren "C:\aaa.txt" "aaa1.txt"
 
 
-GO TO A SPECIFIC DIRECTORE IN CMD
+GO TO A SPECIFIC DIRECTORY IN CMD
 cd "C:\Users\Felipe Ndc\Desktop"
 
 Find a file name in a folder
