@@ -1,0 +1,4 @@
+en-US
+pt-BR
+migwiz
+migwiz\replacementmanifests
