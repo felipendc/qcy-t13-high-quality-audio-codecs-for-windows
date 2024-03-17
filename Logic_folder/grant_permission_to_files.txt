@@ -1,14 +1,3 @@
-en-US\l3codeca.acm.mui
-en-US\mibincodec.dll.mui
-en-US\mimofcodec.dll.mui
-en-US\msmpeg2enc.dll.mui
-en-US\WMVDECOD.dll.mui
-en-US\WMVENCOD.dll.mui
-pt-BR\l3codeca.acm.mui
-pt-BR\mimofcodec.dll.mui
-pt-BR\msmpeg2enc.dll.mui
-pt-BR\WMVDECOD.dll.mui
-pt-BR\WMVENCOD.dll.mui
 migwiz\replacementmanifests\msmpeg2vdec-migration-replacement.man
 ChxDecoder.dll
 DMRCDecoder.dll
