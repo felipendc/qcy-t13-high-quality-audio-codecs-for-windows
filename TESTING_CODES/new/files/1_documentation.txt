@@ -7,6 +7,22 @@
 
 WORKING CODE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+Backup all the folders and its subfolders permissions in the root directory of System32:
+icacls "C:\Windows\System32\*" /save C:\system32_default_permissions_backup.txt /t
+
+restore:
+icacls C:\Windows\System32\ /restore C:\system32_default_permissions_backup.txt /c
+
+
+Finding a file by its parcial *aaa* name and getting its path:
+dir C:\Windows\System32\ /s /b | dir /s /b "*smpeg2vdec-migration-replacem*"
+
+
+Finding a file by its specific name and getting its path:
+dir C:\Windows\System32\ /s /b | findstr "msmpeg2vdec-migration-replacement.man"
+Result >>> C:\Windows\System32\migwiz\replacementmanifests\msmpeg2vdec-migration-replacement.man
+
+
 ////////////////////////
 Give a user Full permission:
 icacls "C:\Windows\en-US" /grant "Felipe Ndc":(OI)(CI)F
@@ -18,11 +34,7 @@ icacls "C:\Windows\en-US" /save C:\permissao.txt
 Restore permissions:
 icacls "C:\Windows" /restore "C:\permissao.txt"
 ......
-Backup all the folders and its subfolders permissions in the root directory of System32:
-icacls "C:\Windows\System32\*" /save C:\system32_default_permissions_backup.txt /t
 
-restore:
-icacls C:\Windows\System32\ /restore C:\system32_default_permissions_backup.txt /c
 
 ///////////////////////
 GO TO THE DESKTOP FOLDER:
@@ -37,6 +49,8 @@ cd "C:\Users\Felipe Ndc\Desktop"
 
 Find a file name in a folder
 dir "C:\*aaa*" /b > filename.txt
+
+findstr "C:\Windows\System32\*audio*"
 
 
 GRANT PERMISSION TO A FILE
