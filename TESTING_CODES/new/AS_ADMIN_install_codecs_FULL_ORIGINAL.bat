@@ -41,7 +41,7 @@ for /f "tokens=*" %%i in (files\codecs_to_be_installed.txt) do (
     set /a counter1=0
     IF EXIST "C:\Windows\System32\%%i" (
         set /a counter1+=1
-        ren "C:\Windows\System32\%%i" "aaa_%counter1%"
+        ren "C:\Windows\System32\%%i" "aaa_!counter1!"
     )
 )
 
@@ -51,7 +51,7 @@ for /f "tokens=*" %%a in (files\codecs_to_be_removed.txt) do (
     set /a counter2=0
     IF EXIST "C:\Windows\System32\%%a" (
         set /a counter2+=1
-        ren "C:\Windows\System32\%%a" "aaaa_%counter2%"        
+        ren "C:\Windows\System32\%%a" "aaaa_!counter2!"        
     )
 )
 
