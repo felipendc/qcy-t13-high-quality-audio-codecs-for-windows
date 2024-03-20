@@ -7,24 +7,6 @@
 
 WORKING CODE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-////////////////////////
-Give a user Full permission:
-icacls "C:\Windows\en-US" /grant "Felipe Ndc":(OI)(CI)F
-
-YOU MUST take ownership of the target file or folder first!
-Backup a file permissions:
-icacls "C:\Windows\en-US" /save C:\permissao.txt
-
-Restore permissions:
-icacls "C:\Windows" /restore "C:\permissao.txt"
-......
-Backup all the folders permissions in the root directory of Local Disk C:
-icacls "C:\*" /save C:\all_local_c_default_permissions_backup.txt
-
-restore:
-icacls C:\ /restore C:\all_local_c_default_permissions_backup.txt /c
-
-///////////////////////
 GO TO THE DESKTOP FOLDER:
 cd "C:\Users\Felipe Ndc\Desktop"
 
@@ -41,6 +23,8 @@ dir "C:\*aaa*" /b > filename.txt
 
 GRANT PERMISSION TO A FILE
 icacls "C:\aaa.txt" /grant *S-1-1-0:(F)
+
+
 
 REMOVE THOSE PERMISSIONS FROM A FILE
 "C:\aaa.txt" /remove *S-1-1-0

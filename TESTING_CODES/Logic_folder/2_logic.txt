@@ -5,7 +5,6 @@ cd /d "%~dp0"
 dir "C:\Windows\System32\*mixer*" /b > files_to_be_deleted.txt
 
 
-
 @REM ## Check if the "files_to_be_deleted.txt" file is empty based on its size, if so, delete it:
 
 set "filename=files_to_be_deleted.txt"
@@ -18,38 +17,33 @@ if %filesize% EQU 0 (
     echo There is no files and folders containing 'MIXER' in their name in the system32 folder... 
 )
 
-@REM ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 @REM ## Take ownership of some folders:
 
-
-@REM takeown /f "C:\Windows\System32" /r /d y
+takeown /f "C:\Windows\System32" /r /d y
 
 for /f "tokens=*" %%i in (grant_permission_to_folders.txt) do (
   takeown /f "C:\Windows\System32\%%i" /r /d y
-  icacls C:\Windows\System32\%%i /grant"*S-1-1-0:(F)"
 )
 
 for /f "tokens=*" %%i in (grant_permission_to_files.txt) do (
-  takeown /f "C:\Windows\System32\%%i"
-  icacls C:\Windows\System32\%%i /grant "*S-1-1-0:(F)"
-  
+  takeown /f "C:\Windows\System32\%%i.txt"
 )
 
 IF EXIST "files_to_be_deleted.txt" (
     for /f "tokens=*" %%i in (files_to_be_deleted.txt) do (
     @REM Take ownership for Files:
-    takeown /f "C:\Windows\System32\%%i" /r /d y
-    
+    echo 'takeown /f "C:\Windows\System32\%%i" /r /d y'
     @REM Take ownership for Files:
-    takeown /f "C:\Windows\System32\%%i"
-    icacls C:\Windows\System32\%%i /grant "*S-1-1-0:(F)"
-    
+    echo 'takeown /f "C:\Windows\System32\%%i"'
+    echo ""
     )
 ) ELSE (
     ECHO "files_to_be_deleted.txt" does not exist.
 )
 
-@REM ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 
 @REM RENAME THE AUDIO FILES:
 
@@ -60,7 +54,6 @@ for /f "tokens=*" %%a in (grant_permission_to_files.txt) do (
     set /a counter1+=1
     ren "C:\Windows\System32\%%a" "aaa_!counter1!"
 )
-
 
 
 @REM RENAME THE AUDIO MIXER FILES AND FOLDERS:
@@ -81,11 +74,8 @@ IF EXIST "files_to_be_deleted.txt" (
 
 @REM MOVE FILES TO SYSTEM32:
 
-for /f "tokens=*" %%i in (grant_permission_to_files.txt) do (
-  move "NEW_CODECS_EXTRACTED_FROM_22635.2915\%%i" "C:\Windows\System32\%%i"
-)
+move "NEW_CODECS_EXTRACTED_FROM_22635.2915\*" "C:\Windows\System32"
 
-@REM "NEW_CODECS_EXTRACTED_FROM_22635.2915\*" "C:\Windows\System32"
 
 @REM move "C:\Windows\System32\aaa*" "C:\temp_aaa_files"
 @REM Reboot the computer and then, delete the files from "C:\temp_audio_files"
