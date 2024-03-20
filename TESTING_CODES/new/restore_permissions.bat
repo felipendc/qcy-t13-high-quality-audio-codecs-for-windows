@@ -2,10 +2,10 @@
 cd /d "%~dp0"
 
 @REM RESTORE:
-@REM icacls C:\Windows\System32\ /restore bk_test_not_original\system32_default_permissions_backup.txt /c
+icacls C:\Windows\System32\ /restore bk_test_not_original\system32_default_permissions_backup.txt /c
 
 
 @REM BACKUP:
-icacls "C:\Windows\System32\*" /save bk_test_not_original\system32_default_permissions_backup.txt /t
+@REM icacls "C:\Windows\System32\*" /save bk_test_not_original\system32_default_permissions_backup.txt /t
 
 pause
