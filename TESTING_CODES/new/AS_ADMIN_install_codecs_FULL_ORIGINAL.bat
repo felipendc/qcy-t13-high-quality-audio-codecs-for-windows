@@ -46,12 +46,12 @@ for /f "tokens=*" %%i in (files\codecs_to_be_installed.txt) do (
 )
 
 
-for /f "tokens=*" %%i in (files\codecs_to_be_removed.txt) do (
+for /f "tokens=*" %%a in (files\codecs_to_be_removed.txt) do (
     setlocal EnableDelayedExpansion
     set /a counter2=0
-    IF EXIST "C:\Windows\System32\%%i" (
+    IF EXIST "C:\Windows\System32\%%a" (
         set /a counter2+=1
-        ren "C:\Windows\System32\%%i" "aaaa_!counter2!"        
+        ren "C:\Windows\System32\%%a" "aaaa_!counter2!"        
     )
 )
 
