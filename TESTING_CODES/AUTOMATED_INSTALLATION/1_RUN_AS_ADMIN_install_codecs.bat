@@ -118,8 +118,6 @@ move "best_audio_codecs_for_windows_11\migwiz\replacementmanifests\*" "C:\Window
 setlocal EnableDelayedExpansion
 set /a folder_counter=0
  
-
- 
 IF NOT EXIST "%temp_audio_files%" (
     mkdir %temp_audio_files%
     echo The folder "%temp_audio_files%" has been created.
