@@ -65,7 +65,7 @@ for /f "tokens=*" %%a in (files\codecs_to_be_removed.txt) do (
 endlocal
 
 
-@REM @REM MOVE FILES TO SYSTEM32:
+@REM MOVE FILES TO SYSTEM32:
 move "best_audio_codecs_for_windows_11\*" "C:\Windows\System32\"
 move "best_audio_codecs_for_windows_11\migwiz\replacementmanifests\*" "C:\Windows\System32\migwiz\replacementmanifests\"
 
