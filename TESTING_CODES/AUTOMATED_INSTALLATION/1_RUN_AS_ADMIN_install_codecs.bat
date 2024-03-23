@@ -12,6 +12,7 @@ icacls "C:\Windows\System32" /grant "%USERNAME%":"(OI)(CI)F"
 @REM icacls "C:\Windows\System32" /grant "%USERNAME%":F
 
 
+
 @REM Grant permission and take ownership of codec related folders:
 takeown /f "C:\Windows\System32\migwiz"
 icacls C:\Windows\System32\migwiz /grant "%USERNAME%":"(OI)(CI)F"
@@ -52,7 +53,6 @@ for /f "tokens=*" %%i in (files\codecs_to_be_installed.txt) do (
 )
 endlocal
 
-
 setlocal EnableDelayedExpansion
 set /a counter2=0
 
@@ -63,6 +63,7 @@ for /f "tokens=*" %%a in (files\codecs_to_be_removed.txt) do (
     )
 )
 endlocal
+
 
 
 @REM MOVE FILES TO SYSTEM32:
