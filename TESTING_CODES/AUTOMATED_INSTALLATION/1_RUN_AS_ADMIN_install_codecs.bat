@@ -43,8 +43,8 @@ for /f "tokens=*" %%i in (files\codecs_to_be_removed.txt) do (
 
 endlocal
 setlocal EnableDelayedExpansion
-
 set /a counter1=0
+
 for /f "tokens=*" %%i in (files\codecs_to_be_installed.txt) do (
     IF EXIST "C:\Windows\System32\%%i" (
         set /a counter1+=1
