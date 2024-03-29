@@ -3,7 +3,7 @@ import shutil
 
 # Author: Felipe Ndc (VicyosLife)
 # Install the best QCY-T13 audio codecs for Windows!
-
+# Using python-3.12.2
 
 
 # ################### DECLARING VARIABLES ######################
