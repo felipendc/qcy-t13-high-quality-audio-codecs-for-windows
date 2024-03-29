@@ -13,9 +13,6 @@ windows_dir = os.environ.get('SYSTEMROOT', 'C:\\Windows')
 # Construct the System32 directory path
 system32_dir = os.path.join(windows_dir, 'System32')
 
-# Get the current user name
-username = os.getlogin()
-
 # Get the absolute path to the currently executing script
 script_path = os.path.abspath(__file__)
 
