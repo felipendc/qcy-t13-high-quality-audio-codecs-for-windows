@@ -1,10 +1,7 @@
 import os
 import shutil
 
-
 # Author: Felipe Ndc (VicyosLife)
-# Install the best QCY-T13 audio codecs for Windows!
-
 
 
 # ################### DECLARING VARIABLES ######################
