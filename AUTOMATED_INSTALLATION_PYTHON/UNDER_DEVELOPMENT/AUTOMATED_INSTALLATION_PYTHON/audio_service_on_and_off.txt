@@ -1,0 +1,4 @@
+CMD AS ADM:
+
+NET STOP audiosrv
+NET START audiosrv

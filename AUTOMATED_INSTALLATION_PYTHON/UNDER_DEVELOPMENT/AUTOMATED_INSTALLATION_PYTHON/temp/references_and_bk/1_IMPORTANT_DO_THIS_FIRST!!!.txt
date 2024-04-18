@@ -1,0 +1,66 @@
+##########################
+######## WARNING! ########
+##########################
+
+DO NOT INSTALL ANY BLUETOOTH DRIVER MANUALLY!
+LET WINDOWS AUTOMATICALLY INSTALL THE REQUIRED BLUETOOTH DRIVERS THROUGH WINDOWS UPDATE!
+
+THIS IS BECAUSE DEPENDING ON THE VERSION OF THE BLUETOOTH DRIVERS INSTALLED OUTSIDE OF "WINDOWS UPDATE" 
+CAN AFFECT THE AUDIO QUALITY OF YOUR BLUETOOTH AUDIO DEVICES.
+
+
+################################################
+####  BEFORE MOVING ANY FILES TO SYSTEM32... ###
+################################################
+
+DO THIS FIRST:
+
+DELETE THESE FILES FROM THE SYSTEM32 FOLDER:
+
+WindowsCodecsRaw.dll
+WindowsCodecsRaw
+
+DolbyDAX2APOProp.dll
+DolbyDAX2APOv211.dll
+DolbyDecMFT.dll
+
+Delete all the files and folders containing 'MIXER' in their name in the system32 folder.
+
+
+
+################################################
+## IF YOU CAN'T DELETE THOSE FILES, TRY THIS: ##
+################################################
+
+RIGHT CLICK ON EACH FILE:
+WindowsCodecsRaw.dll
+WindowsCodecsRaw
+
+DolbyDAX2APOProp.dll
+DolbyDAX2APOv211.dll
+DolbyDecMFT.dll
+
+SELECT PROPROTIES
+GO TO SECURITY TAB
+SELECT "USERS" AND CLICK ON "EDIT"
+SELECT "USERS"
+TICK FULL CONTROL
+
+ALL THE OTHER BOXES ARE GOING TO GET TICKED AUTOMATICALLY.
+CLICK APPLY
+IF A WARNING PROMPT POPS UP, SELECT "YES".
+THEN, CLICK OK.
+.......
+
+
+Try deleting them again, if some of them can't be deleted because it's being used by another process...
+No problem! try this:
+
+Rename them with a random name and move them to your desktop, or documents, or to a folder of your choice...
+
+Now, you can move the files from NEW_CODECS_EXTRACTED_FROM_22xxx.xxxx to the System32 folder.
+Reboot your computer and delete the files you moved to your desktop or whatever folder you saved them. :)
+
+
+
+
