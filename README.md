@@ -20,7 +20,16 @@
 
 <br />
 
-***Wifi cards with Bluetooth integrated that I've already tested using these codecs:*** <br />
+<!--
+**If you are looking for having the best audio experience, I recommend this combination:**
+|WINDOWS VERSION|EARBUDS|
+|---|---|
+|Windows 11 version 23H2 build 22631.3155|QCY T13|
+
+<br />
+-->
+
+**Wifi cards with Bluetooth integrated that I've already tested using these codecs:** <br />
 |**TESTED ON WIRELESS CARDS**|BLUETOOTH VERSION|WORKING|
 |---|---|---|
 |**Intel® Wi-Fi 6 AX200**|Bluetooth 5.2|:white_check_mark:|
