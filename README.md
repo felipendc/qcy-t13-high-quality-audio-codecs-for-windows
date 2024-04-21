@@ -4,6 +4,12 @@
 ![](https://i.imgur.com/4sGFgV6.jpg)
 
 <br />
+<br />
+
+> **WINDOWS CURRENT VERSION:** <br />
+> [**I'm currently testing these codecs on "Windows 11 version 23H2 build 22631.3155" and the codecs quality is insanely good!**](https://www.youtube.com/watch?v=g9I8vJ9yAoE&ab_channel=VicyosLinuxOfficial)
+
+<br />
 
 ***Earbuds that I have already tested using these codecs:*** <br />
 
@@ -26,6 +32,12 @@
  Let "Windows Update" autoinstall the bluetooth drivers.
  Do not install any other bluetooth drivers manually.</pre> 
 
+<br />
+
+> **INSTALLATION PROCESS:** <br />
+>  A VIDEO STEP-BY-STEP INSTALLATION WILL BE RELEASED SOON! 
+
+<br />
 <br />
 
 <!-- !
