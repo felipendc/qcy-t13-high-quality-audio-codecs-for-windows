@@ -9,7 +9,7 @@
 <br />
 
 > **WINDOWS CURRENT VERSION:** <br />
-> [**I'm currently testing these codecs on "Windows 11 version 23H2 build 22631.3155" and the codecs quality is insanely good!**](https://www.youtube.com/watch?v=g9I8vJ9yAoE&ab_channel=VicyosLinuxOfficial)
+> [**I'm currently testing these codecs on "Windows 11 version 23H2 build 22631.3155" and the codecs quality is insanely good!**](https://uupdump.net/selectlang.php?id=18947b65-2180-4838-a051-2dbe1ee40064)
 
 <br />
 
