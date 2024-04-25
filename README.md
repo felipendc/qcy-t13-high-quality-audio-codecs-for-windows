@@ -16,7 +16,7 @@
 |**THESE CODECS HAVE BEEN TESTED ON:**|BLUETOOTH VERSION|WORKING|AUDIO QUALITY|
 |---|---|---|---|
 |**QCY T13**|Bluetooth 5.1|:white_check_mark:|Excellent!|
-|**QCY HT05**|Bluetooth 5.2|:white_check_mark:|Good|
+|**QCY HT05**|Bluetooth 5.2|:white_check_mark:|Excellent!|
 
 <br />
 
