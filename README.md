@@ -2,7 +2,7 @@
 <p><strong>🔥QCY-T13 is by far, the best earbuds I've ever bought, so far!🔥</strong></p>
 
 ![](https://i.imgur.com/4sGFgV6.jpg)
-![](https://imgur.com/GsPj9uh.jpg)
+![](https://imgur.com/jrlWqd8.jpg)
 
 
 <br />
