@@ -43,10 +43,3 @@ WMVENCOD.DLL
 WMVSDECD.DLL
 WMVSENCD.DLL
 WMVXENCD.DLL
-audiodg.exe
-AudioEng.dll
-audiosrv.dll
-AudioSrvPolicyManager.dll
-MMDevAPI.dll
-SndVolSSO.dll
-
