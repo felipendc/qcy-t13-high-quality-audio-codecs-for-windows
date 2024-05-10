@@ -8,8 +8,17 @@
 <br />
 <br />
 
-> **WINDOWS CURRENT VERSION:** <br />
-> [**I'm currently testing these codecs on "Windows 11 version 23H2 build 22631.3155" and the codecs quality is insanely good!**](https://uupdump.net/selectlang.php?id=18947b65-2180-4838-a051-2dbe1ee40064)
+> **THESE AUDIO CODECS HAVE BEEN TESTED ON:** <br />
+> Windows 11 version 23H2 build 22631.3155" <br />
+> Windows 11 version 23H2 build 22621.2134" <br />
+> The quality of the audio is insanely good on these Windows versions! <br />
+
+<br />
+
+> **BUILD ISOs LINK:** <br />
+> build the ISO Windows 11 version 23H2 build 22631.3155: [link](https://uupdump.net/known.php?q=22631.3155) <br />
+> build the ISO Windows 11 version 23H2 build 22631.2134: [link](https://uupdump.net/known.php?q=22621.2134) <br />
+> How to build Windows ISOs [link](https://www.xda-developers.com/uup-dump-windows-11-10-iso-update/#:~:text=The%20UUP%20dump%20project%20allows,releases%20such%20as%2022H2%2F22621.) <br />
 
 <br />
 
