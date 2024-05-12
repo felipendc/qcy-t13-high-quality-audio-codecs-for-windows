@@ -9,6 +9,7 @@
 <br />
 
 > **THESE AUDIO CODECS HAVE BEEN TESTED ON:** <br />
+> Windows 11 version 23H2 build 22621.3527" <br />
 > Windows 11 version 23H2 build 22631.3155" <br />
 > Windows 11 version 23H2 build 22621.2134" <br />
 > The quality of the audio is insanely good on these Windows versions! <br />
@@ -16,6 +17,7 @@
 <br />
 
 > **BUILD ISOs LINK:** <br />
+> build the ISO Windows 11 version 23H2 build 22621.3527: [link](https://uupdump.net/known.php?q=22621.3527) <br />
 > build the ISO Windows 11 version 23H2 build 22631.3155: [link](https://uupdump.net/known.php?q=22631.3155) <br />
 > build the ISO Windows 11 version 23H2 build 22621.2134: [link](https://uupdump.net/known.php?q=22621.2134) <br />
 > How to build Windows ISOs [link](https://www.xda-developers.com/uup-dump-windows-11-10-iso-update/#:~:text=The%20UUP%20dump%20project%20allows,releases%20such%20as%2022H2%2F22621.) <br />
