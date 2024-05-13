@@ -1,0 +1,10 @@
+dsound.dll
+file_list.txt
+get_files_name.bat
+mfreadwrite.dll
+msacm32.dll
+msacm32.drv
+wavemsp.dll
+WMVCORE.DLL
+XAudio2_8.dll
+XAudio2_9.dll
