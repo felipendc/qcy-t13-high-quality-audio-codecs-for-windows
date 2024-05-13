@@ -1,5 +1,0 @@
-WindowsCodecsRaw.dll
-WindowsCodecsRaw
-DolbyDAX2APOProp.dll
-DolbyDAX2APOv211.dll
-DolbyDecMFT.dll
